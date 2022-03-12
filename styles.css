@@ -1,0 +1,36 @@
+table,
+th,
+td {
+  border: 1px solid rgb(8, 48, 94);
+  border-collapse: collapse;
+}
+.dice-container {
+  display: flex;
+  margin: 10px;
+}
+.dice-image {
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+.my-info {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  font-size: 22px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#rollButton {
+  background-color: green;
+  color: white;
+  border: 1 solid greenyellow;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
